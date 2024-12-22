@@ -1,0 +1,22 @@
+.lightColor {
+    background-color: bisque;
+    
+}
+
+.bordered {
+    border: 1px solid black;
+}
+
+.fullCard {
+    height: 50vh;
+    margin-top: 15vh;
+    padding: 15vh;
+}
+
+.mrg {
+    margin-top: 27vh;
+}
+
+.mrgSmall {
+    margin-top: 15vh;
+}

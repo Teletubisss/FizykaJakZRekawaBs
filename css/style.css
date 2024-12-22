@@ -1,0 +1,52 @@
+
+
+
+.container {
+    margin-top: 7vh;
+}
+
+
+.col {
+    padding: 1rem;
+    background-color: rgb(163, 152, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    height: 20vh;
+}
+
+.background {
+    background-color: antiquewhite;
+}
+
+.row {
+    margin-top: 5vh;
+}
+
+.ms {
+    margin-inline-end: 2rem;
+}
+
+.image {
+    display: inline-block;
+    border: 5px solid black;
+}
+
+.textForm {
+    padding: 3rem;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(187, 163, 126);
+    margin-top: 7vh;
+}
+
+.ButtonTextForm {
+    width: 50%;
+    background-color: rgb(192, 167, 135);
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.height {
+    height: 10vh;
+}
