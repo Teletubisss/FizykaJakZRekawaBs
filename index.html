@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap_sandstorm.css">
+    <link rel="stylesheet" href="css/bootstrap_sandstorm_nati.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <!--nie moge zmienic kolor czcionek navigacja-->
+  <!--interlinia-->
+  <nav class="navbar fixed-top navbar-expand-lg bg-primary p-4 textColorLight" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fizyka Jak Z Rękawa</a>
+      <a class="navbar-brand" href="#">FIZYKA JAK Z RĘKAWA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,20 +40,18 @@
       </div>
       <div class="d-flex">
         <a class="navbar-brand" href="#">
-          <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-        </a>
-        <a href="https://www.instagram.com/natalia_g0rny/" target="_blank">
-          <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="white">
-              <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="white" stroke-width="1.5"></path>
-              <path d="M17.5 6.51L17.51 6.49889" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+            <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
+            <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
+            <path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
           </svg>
         </a>
       </div>
     </div>
   </nav>
-    <div class="card fullCard">
+    <div class="card fullCard lightColor border-0">
       <div class="card-body container">
+        <!--napis zle miejsce telefon-->
         <h1 class="card-title">FIZYKA JAK Z RĘKAWA</h1>
         <p class="card-text">Postaram się pomóc ci w zrozumieniu fizyki na poziomie licealnym za pomocą prezentacji multimedialnych</p>
       </div>
@@ -60,10 +60,16 @@
 
     <main>
         <section id="quote1">
-          <figure class="container mrg">
+          <figure class="container mrg textColorLight">
             <blockquote class="blockquote">
-              <p class="mb-0">W nauce istnieje tylko fizyka, reszta to zbieranie znaczków.</p>
-            
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                    <path
+                        d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                    />
+                </svg>
+                <p class="mb-0">W nauce istnieje tylko fizyka, reszta to zbieranie znaczków.</p>
+            </div>  
             </blockquote>
             <figcaption class="blockquote-footer">
               Ernest Rutheford
@@ -71,27 +77,29 @@
           </figure>
         </section>
         <section id="about">
-          <div class="container mrg">
-            <div class="row">
-              <div class="col-lg-6 col-md-4 col-sm-12">
-                  <img src="images/ai-generated-8813119_640.jpg" class="img-fluid" alt="Zdjecie">
+          <div class="container-fluid mrg lightColor p">
+            <div class="container">
+              <div class="row gx-5">
+                <div class="col-lg-6 col-md-4 col-sm-12">
+                    <img src="images/ai-generated-8813119_640.jpg" class="img-fluid" alt="Zdjecie">
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                  <h1>O MNIE</h1>
+                  <p>Mam na imię Natalia. Obecnie jestem w drugiej klasie liceum na profilu mat-fiz. Jako, że dobrze mi idzie fizyka, postanowiłam uczyć innych za darmo! Razem możemy zrozumieć fizykę poprzez przeglądanie prezentacji i wspólne rozwiązywanie zadań. Jeżeli lubisz prostą i szybko wytłumaczoną naukę, to sądzę, że mam coś dla ciebie!
+                  Jestem w trakcie tworzenia nowych prezentacji oraz ulepszania poprzednich. Wiem, że w niektórych brakuje zadań, lecz postaram się to jak najszybciej skorygować! Jeżeli masz jakiekolwiek pytania, uwagi czy też chcesz zgłosić błąd, skontaktuj się ze mną! Więcej informacji znajdziesz w zakładce ,,Kontakt".
+                  </p>
               </div>
-              <div class="col-lg-6 col-md-8 col-sm-12">
-                <h1>O MNIE</h1>
-                <p>Mam na imię Natalia. Obecnie jestem w drugiej klasie liceum na profilu mat-fiz. Jako, że dobrze mi idzie fizyka, postanowiłam uczyć innych za darmo! Razem możemy zrozumieć fizykę poprzez przeglądanie prezentacji i wspólne rozwiązywanie zadań. Jeżeli lubisz prostą i szybko wytłumaczoną naukę, to sądzę, że mam coś dla ciebie!
-                Jestem w trakcie tworzenia nowych prezentacji oraz ulepszania poprzednich. Wiem, że w niektórych brakuje zadań, lecz postaram się to jak najszybciej skorygować! Jeżeli masz jakiekolwiek pytania, uwagi czy też chcesz zgłosić błąd, skontaktuj się ze mną! Więcej informacji znajdziesz w zakładce ,,Kontakt".
-                </p>
             </div>
           </div>
         </section>
         <section id="organisation">
-          <div class="organisation container">
+          <div class="organisation container mb-5 textColorLight">
             <div class="row">
               <div class="col-lg-12 text-center mrg">
                 <h1>JAK DZIAŁAM?</h1>
               </div>
             </div>
-            <div class="row mrgSmall">
+            <div class="row mrgSmall pb-5">
               <div class="col-lg-6 col-sm-12 text-center">
                 <h2>TŁUMACZENIE</h2>
                 <p class="mrgSmall">Na początku tłumaczę zagadnienia, używając prostego języka i przykładów. Pokazuje także działanie różnych wzorów.</p>
@@ -128,95 +136,53 @@
                       stroke-linejoin="round"></path>
                   <path d="M16 8L8 16" stroke="#EDFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <!--ikony nie dzialaja-->
             </div>
           </div>
         </section>
         <section id="slaids">
-          <div class="container">
-            <div class="row col-xxl-12 text-center mrg">
-              <h1>PRZYKŁADOWE SLAIDY</h1>
-            </div>
-            <div class="row col-xxl-12 text-center mt-5">
-              <p>Nie jesteś pewien, czy ten sposób nauki jest dla ciebie? Nie ma sprawy. Tutaj znajdziesz parę przykładowych slajdów z moich prezentacji</p>
-            </div>
-            <div class="row mrgSmall">
-              <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="images/1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="200">
-                    <img src="images/3.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/4.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-                <!--automatic not worjking-->
+          <div class="container-fluid lightColor p">
+            <div class="container">
+              <div class="row col-xxl-12 text-center">
+                <h1>PRZYKŁADOWE SLAIDY</h1>
               </div>
-
-
-
-              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="images/1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              <div class="row col-xxl-12 text-center mt-5">
+                <p>Nie jesteś pewien, czy ten sposób nauki jest dla ciebie? Nie ma sprawy. Tutaj znajdziesz parę przykładowych slajdów z moich prezentacji</p>
               </div>
-
-
-
+              <div class="row mt-3">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                      <img src="images/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="images/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="images/3.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    <!--change size!!!-->
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section id="quote2">
-          <figure class="container mrg">
+          <figure class="container mrg textColorLight">
             <blockquote class="blockquote">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                <path
+                    d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                />
+            </svg>
               <p class="mb-0">Fizyka jest jak seks: pewnie, że może dawać jakieś praktyczne rezultaty, ale nie dlatego to robimy.</p>
             
             </blockquote>
@@ -226,67 +192,77 @@
           </figure>
         </section>
         <section id="presentations"> 
-          <div class="container mrg">
-            <div class="row text-center">
-              <h1>MOJE PREZENTACJE</h1>
+          <div class="container-fluid lightColor mrg p">
+            <div class="container">
+              <div class="row text-center">
+                <h1>MOJE PREZENTACJE</h1>
+              </div>
+              <div class="bordered p-5 m-5">
+                <table class="text-center col-12">
+                  <thead>
+                    <tr>
+                      <th scope="col">KLASA 1</th>
+                      <th scope="col">KLASA 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#"><p>Ruch Podstawy</p></a></td>
+                      <td><a href="#"><p>Ruch Postępowy i Obrotowy Bryły Sztywnej</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Dynamika</p></a></td>
+                      <td><a href="#"><p>Pole Grawitacyjne</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Praca, Moc, Energia Mechaniczna</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Hydrostatyka</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="text-center mrgSmall col-12">
+                  <thead>
+                    <tr>
+                      <th scope="col">KLASA 1</th>
+                      <th scope="col">KLASA 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                      <td><a href="#"><p>Work in Progress...</p></a></td>
+                    </tr>
+                    <!--nie wycentrowane-->
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <table class="text-center mrgSmall col-12">
-              <thead>
-                <tr>
-                  <th scope="col">KLASA 1</th>
-                  <th scope="col">KLASA 2</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><a href="#"><p>Ruch Podstawy</p></a></td>
-                  <td><a href="#"><p>Ruch Postępowy i Obrotowy Bryły Sztywnej</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Dynamika</p></a></td>
-                  <td><a href="#"><p>Pole Grawitacyjne</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Praca, Moc, Energia Mechaniczna</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Hydrostatyka</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-              </tbody>
-            </table>
-            <table class="text-center mrgSmall col-12">
-              <thead>
-                <tr>
-                  <th scope="col">KLASA 1</th>
-                  <th scope="col">KLASA 2</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-                <tr>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                  <td><a href="#"><p>Work in Progress...</p></a></td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </section>
         <section id="quote3">
-          <figure class="container mrg">
+          <figure class="container mrg textColorLight">
             <blockquote class="blockquote">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                <path
+                    d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
+                />
+            </svg>
               <p class="mb-0">Fizyka jest albo nieprawdopodobna, albo banalna. Jest nieprawdopodobna dopóki jej nie zrozumiesz. Wtedy okazuje się banalna.</p>
             
             </blockquote>
@@ -296,47 +272,46 @@
           </figure>
         </section>
         <section id="contact">
-          <div class="container mrg text-center">
-
-
-            <div class="row">
-              <div class="_bordered col-md-6 offset-3">
-                <form>
-                  <fieldset>
-                    <legend>Kontakt</legend>
-                    <div class="mt-5">
-                      <label for="exampleInputEmail1" class="form-label mt-4">Adres Email</label>
-                      <input type="email" class="form-control text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="mt-5">
-                      <label for="exampleInputPassword1" class="form-label mt-4">Imię i Nazwisko</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
-                    </div>
-                    <div class="mt-5">
-                      <label for="exampleTextarea" class="form-label mt-4">Wiadomość</label>
-                      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                    </div>
-                    <div class="mt-5">
-                      <button type="button" class="btn btn-primary">Wyślij</button>
-                    </div>
-                  </fieldset>
-                </form>
+          <div class="container-fluid mrg lightColor text-center p">
+            <div class="container bordered p-3">
+              <div class="row">
+                <div class="_bordered col-md-6 offset-3">
+                  <form>
+                    <fieldset>
+                      <legend>Kontakt</legend>
+                      <div class="mt-5">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Adres Email</label>
+                        <input type="email" class="form-control text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                      <div class="mt-5">
+                        <label for="exampleInputPassword1" class="form-label mt-4">Imię i Nazwisko</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
+                      </div>
+                      <div class="mt-5">
+                        <label for="exampleTextarea" class="form-label mt-4">Wiadomość</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                      </div>
+                      <div class="mt-5">
+                        <button type="button" class="btn btn-primary">Wyślij</button>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
               </div>
             </div>
-            
-            
+
           </div>
         </section>
     </main>
   </div>
-    <footer class="container mrgSmall">
+    <footer class="container mrgSmall textColorLight mb-5">
       <div class="row">
         <div class="col-lg-6">
           <p>PREZENTACJE Z FIZYKI</p>
           <p>Prezentacje autorstwa <b>Natalii Górny</b></p>
           <p>Prawa do prezentacji <b>zastrzeżone</b></p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-end">
             <a href="https://www.facebook.com/natalia.gorny.796?locale=pl_PL" target="_blank">
               <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#EDFFFF">
                   <path
@@ -346,6 +321,13 @@
                       stroke-linecap="round"
                       stroke-linejoin="round"
                   ></path>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/natalia_g0rny/" target="_blank">
+              <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="white">
+                  <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="white" stroke-width="1.5"></path>
+                  <path d="M17.5 6.51L17.51 6.49889" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
             </a>
             

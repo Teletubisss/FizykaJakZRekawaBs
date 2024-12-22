@@ -1,10 +1,10 @@
 .lightColor {
-    background-color: bisque;
+    background-color: var(--bs-primary);
     
 }
 
 .bordered {
-    border: 1px solid black;
+    border: 1px solid #3e3f3e65;
 }
 
 .fullCard {
@@ -19,4 +19,18 @@
 
 .mrgSmall {
     margin-top: 15vh;
+}
+
+.p {
+    padding: 8vw;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.textColorLight {
+    color: var(--bs-primary);
 }
