@@ -10,7 +10,7 @@
 .fullCard {
     height: 50vh;
     margin-top: 15vh;
-    padding: 15vh;
+    padding: 70px;
 }
 
 .mrg {
@@ -29,8 +29,25 @@ body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     background-size: 100%;
+    color: var(--bs-secondary);
 }
 
 .textColorLight {
     color: var(--bs-primary);
+}
+
+svg {
+    color: var(--bs-primary);
+}
+
+a {
+    color: var(--bs-body-color);
+}
+
+.svgMenu {
+    color: var(--bs-secondary);
+}
+
+.nav-link {
+    font-weight: 800;
 }
